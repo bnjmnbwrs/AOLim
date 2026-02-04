@@ -1,0 +1,81 @@
+AOLim – Beta Testing Instructions
+=================================
+
+Thank you for helping test AOLim!
+
+
+TEST ENVIRONMENTS
+-----------------
+- Eden (primary)
+- WingsXI (secondary)
+- Ashita launcher required
+
+
+INSTALLATION
+------------
+1. Create folder:
+   Ashita/addons/aolim/
+
+2. Copy files:
+   - aolim.lua
+   - aolim_settings.lua
+   - README.txt
+   - CHANGELOG.txt
+   - BETA_TESTING.txt
+
+3. In game:
+   /addon load aolim
+
+4. Toggle UI:
+   /aolim
+
+
+WHAT TO TEST
+------------
+Please focus on the following:
+
+- Adding and removing buddies
+- Creating and managing groups
+- Sending and receiving tells
+- Unread message flashing behavior
+- Tab switching and focus behavior
+- Manual /sea pings
+- Auto-watch presence mode
+- Reloading addon:
+  /addon reload aolim
+
+
+WHAT NOT TO TEST
+----------------
+- Combat automation
+- Multi-client behavior
+- Performance stress testing
+- Anything involving macros or scripts
+
+
+KNOWN LIMITATIONS
+-----------------
+- Online status is best-effort only
+- /sea results depend on server output
+- No persistent chat history by design
+- Presence may briefly show [?] when zoning
+
+
+HOW TO REPORT ISSUES
+--------------------
+When reporting a bug, please include:
+- Server name
+- Ashita version
+- Exact steps to reproduce
+- Any relevant chat lines
+- Whether the addon was freshly loaded or reloaded
+
+
+THANK YOU
+---------
+Your feedback helps ensure this addon remains safe,
+compliant, and useful for the community.
+
+
+END OF FILE
+-----------

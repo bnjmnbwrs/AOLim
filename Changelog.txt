@@ -1,0 +1,46 @@
+AOLim – Changelog
+=================
+
+Version 0.4
+-----------
+- Added AIM-style tabbed chat interface
+- Added flashing ★ indicator for unread tells
+- Added buddy groups (Friends, custom groups)
+- Added right-click buddy context menu
+  - Open Chat
+  - Ping (/sea)
+  - Move to Group
+  - Remove
+- Added multiline chat input
+  - Enter = Send
+  - Shift + Enter = New line
+- Added best-effort online/offline indicators
+- Added throttled auto-watch presence mode
+- Added persistent UI settings and buddy list
+- Improved /sea parsing for HorizonXI output
+- Improved tell parsing for HorizonXI format
+
+Version 0.3
+-----------
+- Added auto-watch presence rotation
+- Added per-buddy and global /sea throttling
+- Added tabbed conversations
+- Added unread counters
+- Improved UI focus behavior
+
+Version 0.2
+-----------
+- Added basic buddy list
+- Added manual /sea ping support
+- Added conversation storage (session-only)
+- Added basic ImGui window controls
+
+Version 0.1
+-----------
+- Initial prototype
+- Manual tells via UI
+- Basic overlay window
+
+
+END OF FILE
+-----------

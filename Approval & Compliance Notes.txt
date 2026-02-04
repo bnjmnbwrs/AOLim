@@ -1,0 +1,75 @@
+AOLim – Approval & Compliance Notes
+==================================
+
+Addon Name: AOLim
+Category: UI / Communication (QoL)
+Platform: Ashita
+
+
+PURPOSE
+-------
+AOLim provides an optional, IM-style interface for /tell communication.
+It is designed to improve chat organization and readability only.
+
+
+GAME INTERACTION SUMMARY
+------------------------
+The addon interacts with the game using ONLY the following commands:
+
+- /tell <name> <message>
+- /sea all <name>
+
+All commands are:
+- User-initiated
+- Visible
+- Rate-limited
+- Non-automated
+
+
+WHAT THIS ADDON DOES
+--------------------
+- Displays tells in a separate UI window
+- Organizes contacts into groups
+- Sends tells using standard /tell
+- Performs best-effort online checks via /sea all
+- Highlights unread messages visually
+
+
+WHAT THIS ADDON DOES NOT DO
+--------------------------
+- No combat automation
+- No movement or targeting
+- No macro execution
+- No conditional decision logic
+- No packet injection
+- No memory reading or writing
+- No background polling without user awareness
+
+
+PRESENCE CHECK SAFEGUARDS
+-------------------------
+- /sea queries are throttled globally and per-buddy
+- Only one /sea request may be pending at a time
+- Auto-watch mode is optional and user-controlled
+- No continuous scanning or spamming behavior
+
+
+DATA STORAGE
+------------
+AOLim stores only:
+- Buddy names
+- Group names
+- Window position and size
+- Presence settings
+
+No chat logs or gameplay data are persisted.
+
+
+INTENDED USE
+------------
+This addon is intended as a quality-of-life communication tool only.
+It does not alter gameplay mechanics or provide any advantage.
+
+
+END OF FILE
+-----------
