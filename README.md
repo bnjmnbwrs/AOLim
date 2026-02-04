@@ -1,2 +1,2 @@
 # AOLim
-Buddy list addon for FFXI
+Buddy list addon for FFXI (Ashita)
